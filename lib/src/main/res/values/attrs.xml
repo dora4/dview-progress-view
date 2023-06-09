@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DoraProgressView">
+        <attr name="dview_progressType">
+            <enum name="line" value="0"/>
+            <enum name="semicircle" value="1"/>
+            <enum name="semicircleReverse" value="2"/>
+            <enum name="circle" value="3"/>
+            <enum name="circleReverse" value="4"/>
+        </attr>
+        <attr name="dview_progressOrigin">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="dview_progressWidth" format="dimension|reference" />
+        <attr name="dview_progressBgColor" format="color|reference" />
+        <attr name="dview_progressHoverColor" format="color|reference" />
+        <attr name="dview_animationTime" format="integer" />
+        <attr name="dview_paintCap">
+            <enum name="flat" value="0"/>
+            <enum name="round" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
