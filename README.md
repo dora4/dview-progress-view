@@ -4,16 +4,15 @@ dview-progress-view
 
 #### gradle依赖配置
 
-```groovy
-// 添加以下代码到项目根目录下的build.gradle
+```kotlin
+// 添加以下代码到项目根目录下的build.gradle.kts
 allprojects {
     repositories {
-        maven { url "https://jitpack.io" }
+        maven { setUrl("https://jitpack.io") }
     }
 }
-// 添加以下代码到app模块的build.gradle
+// 添加以下代码到app模块的build.gradle.kts
 dependencies {
-    def latest_version = '1.0'
-    implementation 'com.github.dora4:dview-progress-view:$latest_version'
+    implementation("com.github.dora4:dview-progress-view:1.0")
 }
 ```
