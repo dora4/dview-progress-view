@@ -1,6 +1,7 @@
 dview-progress-view
 ![Release](https://jitpack.io/v/dora4/dview-progress-view.svg)
 --------------------------------
+![DORA视图 环形律动使](https://github.com/user-attachments/assets/838cb290-309c-45b1-9cbe-920bfdbb6b6e)
 
 ##### 卡名：Dora视图 ProgressView 
 ###### 卡片类型：效果怪兽
